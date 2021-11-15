@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+<!-- Contacts-section -->
+
+<section class="contacts-section">
+    <a href="https://tlgg.ru/Shatalin_M" class="telegram-link">
+        <img src="./img/icons/telegram-icon.svg" class="telegram-icon" alt="my-telegram">
+    </a>
+    <a href="https://wa.me/79818581231" class="viber-link">
+        <img src="./img/icons/viber-icon.svg" class="viber-icon" alt="my-viber">
+    </a>
+    <a href="tel:+79818581231" class="phone-link-icon">
+        <img src="./img/icons/phone-icon.svg" class="phone-icon" alt="my-phone-icon">
+    </a>
+    <a href="tel:+79818581231" class="phone-link-number">
+        8 981 858 12 31
+    </a>
+    
+</section>
+
+<!-- experience-section -->
+
+        <section class="experience-section">
+
+            <img src="./img/My-foto.jpg" alt="My-photo" class="my-photo">
+        
+            <div>
+                <a href="https://www.instagram.com/shatalin_m/" class="instagram-site">
+                    <img src="./img/icons/instagram-icon.jpg" alt="My-instagram" class="instagram-icon">
+                </a>
+                <a href="https://vk.com/id45925793" class="vk-site">
+                    <img src="./img/icons/vk-icon.jpg" alt="My-vk" class="vk-icon">
+                </a>
+            </div>
+
+            <div class="experience-description">
+                <p class="experience-description-text">Начинающий web developer</p>
+            </div>
+
+            <div class="container-technologies">
+                <img src="./img/icons/IJ-icon.svg" alt="My ij" class="ij-icon">
+                <img src="./img/icons/Java-icon.svg" alt="My java" class=java-icon>
+                <img src="./img/icons/Figma-icon.svg" alt="My figma">
+            </div>
+            <a class="my-projekt-goit" href="https://github.com/shatalinmisha">Мои работы</a>
+        
+        </section>
+<!-- my-info-section -->
+        <section class="my-info-section">
+
+            <h2 class="my-name">Привет! Я - Михаил Шаталин</h2>
+            <h1 class="my-profession">Я делаю сайты </h1>
+
+            <p class="my-locetion">Живу в Санкт-Петербурге</p>
+            <p class="my-workstyle">Работаю удаленно</p>
+
+            <p class="my-description">Я - человек-оркестр. В одиночку   заменяю целую веб-студию. </p>
+
+            <div>
+                <p class="my-skills-title">Умею:</p>
+
+                <ul class="my-skills-list"> 
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                            Придумывать новые приложения
+                        </p>
+                    </li>
+                    <li class="my-skills-item">
+                        <p class="my-skills-text"> 
+                            Делать Web - сайты
+                        </p>
+                    </li> 
+                    <li class="my-skills-item">
+                        <p class="my-skills-text">
+                            Java Developer разработчик
+                        </p>
+                    </li>
+                    <li class="my-skills-item"> 
+                       <p class="my-skills-text">
+                           Работать в команде, и настраивать команду на результат.
+                       </p> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- project-price-section -->
+
+        <section class="project-price-section">
+
+            <form class="project-price-form" method="POST" name="Price project" data-netlify="true" data-natlify="true" id="project-price-form">
+                <h4 class="project-price-title">Расчет стоимости проекта</h4>
+    
+                <div class="project-type-container">
+                    <label for="project-type" class="project-price-form-field-title">Тип сайта</label>
+                    <select name="Project type" id="project-type" class="project-price-select">
+
+                        <option selected value="landing-page">Landing page</option>
+                            <option value="web-application">Web Application</option>
+                                <option value="mobile-application">Mobile Application</option>
+                                    <option value="online-store">Online store</option>
+                    </select>
+                </div>
+
+                <div class="activity-type-container">
+                    <p class="project-price-form-field-title">Тип работ</p>
+
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="Web-site" id="web-site" class="activity-type-checkbox">
+                            <label for="web-site" class="activity-type-title">Web-сайт</label>
+                    </div>
+
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="Project management" id="project-management" class="activity-type-checkbox">
+                            <label for="project-management" class="activity-type-title">Projekt manager</label>
+                    </div>
+                    
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="Java developer" id="java-developer" class="activity-type-checkbox">
+                            <label for="java-developer" class="activity-type-title">Java developer</label>
+                    </div>
+
+                </div>
+
+                <div class="project-price-container">
+                    <p class="project-price-form-field-title">Стоимость:<span class="project-price-sum"><span id="total-price"> 0 </span> ₽ </span>
+                    </p>
+                </div>
+
+                <input type="hidden" name="Email">
+
+                <div class="project-price-calculata-btn-container">
+                    <button class="project-price-calculata-btn">Отправить запрос</button>
+                </div>
+            </form>
+    
+        </section>
+    </div>
+
+    <!-- Modal section -->
+
+    <div class="modal-bgd" id="modal-email">    
+        <div class="modal-container">
+            <button class="modal-close-btn">
+                <img src="./img/icons/close-icon.svg" alt="my-close-icon">
+            </button>
+            
+            <img src="./img/icons/email-icon.svg" alt="mail-icon" class="modal-icon">
+            <h4 class="modal-title">Я свяжусь с вами<br> в течении часа.</h4>
+
+            <form action="#" class="modal-container-form" id="modal-email-container">
+                <div class="email-input-container" id="email-input-container">
+                    <label for="user-email" class="user-email-title">Email</label>
+                    <input type="email" name="user-email" id="user-email" class="user-email" placeholder="Ваш Email:">
+                    <p class="email-error-text">Неверный email</p>
+                </div>
+                
+                <button type="submit" class="modal-submit-btn">Отправить</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="modal-bgd" id="success-modal">   
+        <div class="modal-container modal-container-success">
+            <button class="modal-close-btn">
+                <img src="./img/icons/close-icon.svg" alt="my-close-icon">
+            </button>
+
+                <img src="./img/icons/mark-icon.svg" alt="success-icon" class="modal-success-icon">
+            <p class="modal-success-message">
+                Всё отлично! 
+                Запрос отправлен.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,447 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F3F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #020411;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Contacts section */
+
+.contacts-section{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.telegram-link,
+.viber-link,
+.phone-link-icon{
+    text-decoration: none;
+}
+
+
+.phone-icon,
+.viber-icon,
+.telegram-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.telegram-icon,
+.viber-icon{
+    margin-right: 40px;
+}
+
+.phone-icon{
+    margin-right: 10px;
+}
+
+.phone-link-number{
+    font-size: 27px;
+    line-height: 20px;
+    align-items: center;
+    /* text-align: right; */
+    color: #2F80ED;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+/* experience section */
+.experience-section{
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-photo{
+    margin-bottom: 25px;
+    border-radius: 40px;
+}
+
+.vk-site,
+.instagram-site{
+    text-decoration: none;
+}
+
+.vk-icon {
+    margin-right: 50px;
+    background: #2F80ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    /* width: 40px; */
+    /* height: 40px; */
+}
+.instagram-icon {
+    margin-right: 50px;
+    background: #E927ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.experience-description {
+margin-top: 40px;
+margin-bottom: 60px;
+}
+
+.experience-description-text {
+    text-align: center;
+}
+
+.container-technologies {
+    margin-bottom: 50px;
+}
+
+.ij-icon{
+    margin-right: 60px;
+}
+
+.java-icon {
+    margin-right: 60px;
+}
+
+.my-projekt-goit {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #C70303;
+}
+/* my info section */
+
+.my-info-section{
+    width: 33%;
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.my-profession{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #020411;
+    margin-bottom: 35px;
+}
+.my-name{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020411;
+    margin-bottom: 30px;
+}
+
+.my-locetion,
+.my-workstyle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #2F80ED;
+    padding: 5px;
+}
+
+.my-workstyle{
+    margin-bottom: 60px;
+}
+
+.my-description{
+    font-size: 18px;
+    line-height: 24px;
+    color: #020411;
+    margin-bottom: 50px;
+}
+
+.my-skills-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.my-skills-list{
+    list-style: disc;
+    padding-left: 18px;
+}
+
+.my-skills-item{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F80ED;
+}
+
+.my-skills-text{
+     color: #020411;
+}
+/* project-price section */
+.project-price-section{
+    width: 33%;
+}
+.project-price-form{
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.project-price-title{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #020411;
+    margin-bottom: 50px;
+}
+
+.project-type-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.project-price-form-field-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020411;
+    margin-bottom: 15px;
+}
+
+.project-price-select{
+    font-size: 16px;
+    line-height: 24px;
+    color: #020411;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #020411;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.activity-type-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-type-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.activity-type-title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #020411;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.activity-type-checkbox{
+    Width: 18px;
+    Height: 18px;
+    margin-left: 70px;
+}
+
+.project-price-container{
+    margin-bottom: 50px;
+}
+.project-price-sum{
+    margin-left: 140px;
+
+}
+
+.project-price-calculata-btn-container{
+    width: 100%;
+    text-align: center;
+}
+
+.project-price-calculata-btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F3F5F9;
+    background: #2F80ED;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Modal section */
+
+.modal-bgd{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(79 79 79 / 75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-active{
+     pointer-events: all; 
+     opacity: 1; 
+ }
+
+
+.modal-container{
+    background: #FFFFFF;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 16px;
+    Width: 364px;
+    Height: 550px;
+    padding: 160px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.modal-icon{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 40px;
+}
+
+.user-email-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020411;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user-email{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #020411;
+}
+
+.email-input-container {
+    margin-bottom: 100px;
+    height: 60px;
+}
+
+.email-error-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #C70303;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
+
+.email-input-container-error .email-error-text {
+    display: block;
+}
+
+.email-input-container-error .user-email{
+    border-bottom: 1px solid #C70303;
+}
+
+.modal-submit-btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F3F5F9;
+    background: #2F80ED;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-close-btn{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal-success-message{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F80ED;
+}
+
+.modal-container-success{
+    justify-content: center;
+}
+
+.modal-success-icon{
+    margin-bottom: 35px;
+}
